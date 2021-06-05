@@ -11,11 +11,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 10vw;
+  font-size: 7vw;
   text-align: center;
   flex-grow: 1;
 }
-@media only screen {
+@media only screen and (min-width: 1024px) {
   #timer-cnt {
     font-size: 3vw;
   }
@@ -44,7 +44,7 @@ body {
   border: none;
   cursor: pointer;
 }
-@media only screen {
+@media only screen and (min-width: 1024px) {
   #exam-timer-cnt #google-met button {
     padding: 10px;
   }
@@ -61,7 +61,7 @@ body {
 #exam-timer-cnt #google-met button a img {
   width: 5vw;
 }
-@media only screen {
+@media only screen and (min-width: 1024px) {
   #exam-timer-cnt #google-met button a img {
     width: 30px;
   }
