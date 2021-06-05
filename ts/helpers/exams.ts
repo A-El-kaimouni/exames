@@ -1,10 +1,10 @@
 export const exams = {
     6: {
         src: {
-            exam: 'https://drive.google.com/file/d/1hFva_9HdHiK4kdGsm4DxizAcQrL5LfjL/preview',
-            corr: 'https://drive.google.com/file/d/1hFva_9HdHiK4kdGsm4DxizAcQrL5LfjL/preview'
+            exam: 'https://drive.google.com/file/d/1g_LXN9jtbzXbUwTPzi03F9lyDvsSA6t5/preview',
+            corr: 'https://drive.google.com/file/d/1xuFUuNQgX6rX2KIo-k0jksYMNwL7lZP-/preview'
         },
-        duration: 0,
+        duration: 1.5,
         module: 'Analyse III'
     }
 }
