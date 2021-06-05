@@ -15,10 +15,12 @@ const examTimerCnt = document.getElementById('exam-timer-cnt');
 const examTimer = document.getElementById('exam-timer');
 
 // set date variables
-const hour = new Date().getHours();
-const day = new Date().getDay() - 1;
-const year = new Date().getFullYear();
-const month = new Date().getMonth();
+const hour = (new Date()).getHours();
+const day = (new Date()).getDate();
+const year = (new Date()).getFullYear();
+const month = (new Date()).getMonth();
+
+console.log(hour, day)
 
 if(exams[day]) {
     const exam : Exam = exams[day];
