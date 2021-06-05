@@ -44,5 +44,5 @@ if(exams[day]) {
         })
     }
 } else {
-    timerCnt.innerText = 'sorry there is no exam today';
+    timerCnt.innerText = 'sorry there is no exam today...\n check tommorow';
 }
