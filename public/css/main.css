@@ -46,6 +46,7 @@ body {
   color: #eee;
   align-items: center;
   display: flex;
+  text-decoration-line: none;
 }
 #exam-timer-cnt #google-met button a img {
   width: 5vw;
