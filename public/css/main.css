@@ -1,0 +1,61 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#timer-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+  text-align: center;
+  flex-grow: 1;
+}
+#timer-cnt p {
+  font-size: 5vw;
+}
+
+#exam-timer-cnt {
+  padding: 1vw;
+  background: #a33;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#exam-timer-cnt #google-met {
+  display: inline-block;
+  margin: 0 3vw;
+}
+#exam-timer-cnt #google-met button {
+  background: #333;
+  padding: 1vw;
+  border-radius: 1vw;
+  border: none;
+  cursor: pointer;
+}
+#exam-timer-cnt #google-met button:hover {
+  background: #444;
+}
+#exam-timer-cnt #google-met button a {
+  color: #eee;
+  align-items: center;
+  display: flex;
+}
+#exam-timer-cnt #google-met button a img {
+  width: 5vw;
+}
+
+#exam-cnt {
+  display: none;
+  flex-grow: 1;
+}
+#exam-cnt #exam {
+  width: 100%;
+  height: 100%;
+}
