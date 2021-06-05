@@ -20,8 +20,6 @@ const day = (new Date()).getDate();
 const year = (new Date()).getFullYear();
 const month = (new Date()).getMonth();
 
-console.log(hour, day)
-
 if(exams[day]) {
     const exam : Exam = exams[day];
     if(hour >= exam_hour + exam.duration + exam_minute / 60) {
@@ -32,7 +30,6 @@ if(exams[day]) {
     } else {
         const examColdDown = new Colddown(new Date(year, month, day, exam_hour,exam_minute), timer);
         timerPara.innerText = `Next exam in ${exam.module}`
-        console.log(examColdDown)
         examColdDown.start(() => {
             console.log(examCnt)
             timerCnt.style.display = 'none';
