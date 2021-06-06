@@ -31,7 +31,6 @@ if(exams[day]) {
         const examColdDown = new Colddown(new Date(year, month, day, exam_hour,exam_minute), timer);
         timerPara.innerText = `Next exam in ${exam.module}`
         examColdDown.start(() => {
-            console.log(examCnt)
             timerCnt.style.display = 'none';
             examCnt.style.display = 'block';
             examEle.setAttribute('src', exam.src.exam);
