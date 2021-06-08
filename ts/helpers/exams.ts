@@ -18,7 +18,7 @@ export const exams = {
     8:{
         src:{
             exam: 'https://drive.google.com/file/d/1yemMAdogMBtgz05cKyQWenis-ah45Bdu/preview',
-            corr: 'https://drive.google.com/file/d/1yemMAdogMBtgz05cKyQWenis-ah45Bdu/preview'
+            corr: 'https://drive.google.com/file/d/1XAKW5C2lC8uCy5Az-zPBTKtnnX8Gif7y/preview'
         },
         duration: 1,
         module: 'Algébre III'
