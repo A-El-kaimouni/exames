@@ -14,5 +14,13 @@ export const exams = {
         },
         duration: 1.5,
         module: 'Analyse II'
+    },
+    8:{
+        src:{
+            exam: 'https://drive.google.com/file/d/1yemMAdogMBtgz05cKyQWenis-ah45Bdu/preview',
+            corr: 'https://drive.google.com/file/d/1yemMAdogMBtgz05cKyQWenis-ah45Bdu/preview'
+        },
+        duration: 1,
+        module: 'Algébre III'
     }
 }
