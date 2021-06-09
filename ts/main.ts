@@ -2,7 +2,7 @@ import { Colddown } from './modules/colddown';
 import { exams } from './helpers/exams';
 
 // set main variables
-const exam_hour = 21;
+const exam_hour = 20;
 const exam_minute = 0;
 
 // set document elemnts
