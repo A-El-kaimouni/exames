@@ -22,5 +22,13 @@ export const exams = {
         },
         duration: 1,
         module: 'Algébre III'
+    },
+    9: {
+        src: {
+            exams: 'https://drive.google.com/file/d/1L8O0Pjql1fChNSt5TeGEFVE6MGMQ9vxq/preview',
+            corr: 'https://drive.google.com/file/d/1L8O0Pjql1fChNSt5TeGEFVE6MGMQ9vxq/preview',
+        }, 
+        duration: 1,
+        module: 'Analyse III'
     }
 }
