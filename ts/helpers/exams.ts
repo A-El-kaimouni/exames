@@ -25,7 +25,7 @@ export const exams = {
     },
     9: {
         src: {
-            exams: 'https://drive.google.com/file/d/1L8O0Pjql1fChNSt5TeGEFVE6MGMQ9vxq/preview',
+            exam: 'https://drive.google.com/file/d/1L8O0Pjql1fChNSt5TeGEFVE6MGMQ9vxq/preview',
             corr: 'https://drive.google.com/file/d/1L8O0Pjql1fChNSt5TeGEFVE6MGMQ9vxq/preview',
         }, 
         duration: 1,
